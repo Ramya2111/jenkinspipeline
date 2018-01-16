@@ -3,7 +3,7 @@ pipeline {
 stages{
         stage('Build'){
             steps {
-                echo "Testig"
+                echo "Testing the automation"
             }
         }
         
