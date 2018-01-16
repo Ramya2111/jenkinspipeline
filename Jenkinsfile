@@ -12,5 +12,11 @@ stages{
                 echo "Building"
             }
         }
+        stage('Test'){
+            steps {
+                echo "Verified"
+            }
+        }
+        
 }
 }
